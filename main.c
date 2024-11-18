@@ -11,7 +11,7 @@ int main()
     printf("[vazio]\n");
     return 0;
   }
-    
+
   p = (int*)malloc(sizeof(int)*n);
 
   for(int i  = 0; i < n; i++)
@@ -25,14 +25,14 @@ int main()
   {
     if(i != n-1)
     {
-      printf("%d,",p[i]);
+      printf("%d, ",p[i]);
     }
     else
     {
       printf("%d]\n", p[i]);
     }
   }
-  
+
   free(p);
 
   return 0;
